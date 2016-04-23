@@ -1,6 +1,6 @@
 {
   "name": "keycode",
-  "repo": "timoxley/keycode",
+  "repo": "slonka/shortcut-picker-nwjs",
   "description": "Map of keyboard codes",
   "version": "2.1.1",
   "development": {

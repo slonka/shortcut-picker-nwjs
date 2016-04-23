@@ -1,10 +1,10 @@
 // Source: http://jsfiddle.net/vWx8V/
-// http://stackoverflow.com/questions/5603195/full-list-of-javascript-keycodes
+// http://stackoverflow.com/questions/5603195/full-list-of-javascript-spns
 
 /**
- * Conenience method returns corresponding value for given keyName or keyCode.
+ * Conenience method returns corresponding value for given keyName or spn.
  *
- * @param {Mixed} keyCode {Number} or keyName {String}
+ * @param {Mixed} spn {Number} or keyName {String}
  * @return {Mixed}
  * @api public
  */
@@ -12,8 +12,8 @@
 exports = module.exports = function(searchInput) {
   // Keyboard Events
   if (searchInput && 'object' === typeof searchInput) {
-    var hasKeyCode = searchInput.which || searchInput.keyCode || searchInput.charCode
-    if (hasKeyCode) searchInput = hasKeyCode
+    var hasspn = searchInput.which || searchInput.spn || searchInput.charCode
+    if (hasspn) searchInput = hasspn
   }
 
   // Numbers

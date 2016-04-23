@@ -1,29 +1,32 @@
 {
-  "name": "keycode",
-  "description": "Convert between keyboard keycodes and keynames and vice versa.",
-  "version": "2.1.1",
+  "name": "shortcut-picker-nwjs",
+  "description": "Key picker for nw.js",
+  "version": "0.1.0",
   "main": "index.js",
   "directories": {
     "example": "examples",
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/keycode.js"
+    "test": "mocha test/shortcut-picker-nwjs.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/timoxley/keycode.git"
+    "url": "git://github.com/slonka/shortcut-picker-nwjs.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timoxley/keycode/issues"
+    "url": "https://github.com/slonka/shortcut-picker-nwjs/issues"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
   },
-  "homepage": "https://github.com/timoxley/keycode",
+  "homepage": "https://github.com/slonka/shortcut-picker-nwjs",
   "dependencies": {},
   "keywords": [
+    "shortcut",
+    "nwjs",
+    "picker",
     "keyboard",
     "keycode",
     "keyboardevent",
@@ -34,5 +37,5 @@
     "keyname",
     "keypress"
   ],
-  "author": "Tim Oxley <secoif@gmail.com>"
+  "author": "Krzysztof Slonka <krzysztofslonka@gmail.com>"
 }
