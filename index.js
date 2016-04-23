@@ -1,8 +1,8 @@
 // Source: http://jsfiddle.net/vWx8V/
-// http://stackoverflow.com/questions/5603195/full-list-of-javascript-spns
+// http://stackoverflow.com/questions/5603195/full-list-of-javascript-keycodes
 
 /**
- * Conenience method returns corresponding value for given keyName or spn.
+ * Conenience method returns corresponding value for given keyName or keyCode.
  *
  * @param {Mixed} spn {Number} or keyName {String}
  * @return {Mixed}

@@ -4,10 +4,10 @@
 <script>
   var spn = require('shortcut-picker-nwjs');
   window.spn = spn;
-  console.log("The shortcut-picker-nwjs for 'Enter' is %d.", spn('Enter'));
+  console.log("The keycode for 'Enter' is %d.", spn('Enter'));
   window.addEventListener('keydown', keydown);
   function keydown(e) {
     document.getElementById('keyname').innerHTML = (e.which ||
-      e.spn) + ': ' + spn(e.which || e.spn);
+      e.keyCode) + ': ' + spn(e.which || e.keyCode);
   }
 </script>
