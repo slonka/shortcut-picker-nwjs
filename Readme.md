@@ -10,13 +10,6 @@ Key picker for nw.js
 $ npm install shortcut-picker-nwjs
 ```
 
-## Example
-
-```js
-// example
-})
-```
-
 ## API
 
 ### Name Aliases
